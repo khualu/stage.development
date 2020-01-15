@@ -1,0 +1,30 @@
+{
+  "name": "baanmakelaarsingel",
+  "version": "1.0.0",
+  "description": "Development repository for the merge of two different sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khualu/baanmakelaarsingel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khualu/baanmakelaarsingel/issues"
+  },
+  "homepage": "https://github.com/khualu/baanmakelaarsingel#readme",
+  "dependencies": {
+    "grunt": "^1.0.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^4.12.0"
+  }
+}
