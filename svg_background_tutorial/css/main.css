@@ -1,0 +1,71 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Consolas';
+}
+
+body {
+  background: url("../images/bg.svg") no-repeat;
+  background-size: cover;
+  padding-bottom: 500px;
+}
+
+body #logo {
+  color: white;
+  font-size: 2em;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body #deco {
+  position: absolute;
+  top: 80%;
+  width: 35%;
+  padding-left: 30%;
+}
+
+body nav {
+  padding: 50px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+body nav ul {
+  list-style-type: none;
+  float: right;
+  padding-right: 100px;
+}
+
+body nav ul li {
+  float: left;
+  padding: 0 50px;
+  font-weight: bold;
+}
+
+body nav ul li a {
+  color: #705D56;
+  padding: 0 30px;
+}
+
+body .container {
+  text-align: center;
+  width: 60%;
+  margin: 400px auto;
+  color: white;
+}
+
+body .container h1 {
+  font-size: 5.5em;
+  text-shadow: #705D56 3px 3px 1px;
+  text-transform: uppercase;
+}
+
+body .container p {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

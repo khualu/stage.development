@@ -1,0 +1,16 @@
+$colors: (
+    primary: #FFBB1E,
+    dark: #393E41,
+    light: #D3D0CB,
+    accent: #44BBA4,
+);
+
+@function color ($color-name){
+    @return map-get($colors, $color-name)
+}
+
+header {
+    background-color: color(dark);
+    display: flex;
+    justify-content: center;
+}
